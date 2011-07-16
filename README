@@ -1,3 +1,10 @@
 Qiuck and Dirty PHP manual for Vim (outdated, should be updated)
 
 I did the dump using elinks or such
+
+how to update it:
+1) get single html file: http://www.php.net/download-docs.php
+2) links -dump the-html-file > manual/allinonemod.txt
+3) apply a pattern like this:
+    %s@^\s\+-\{10,}\n\n\s\+-\{10,}\n\n \{10,50}\(\S*\)@==================================\nthing: \1@g
+3) cd manual; makeTags.sh
