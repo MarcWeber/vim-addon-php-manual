@@ -1,5 +1,14 @@
 Qiuck and Dirty PHP manual for Vim (outdated, should be updated)
 
+features:
+- manual in text form
+- tag file for help text file for
+  * auto completion (eg c-n) which is a lot faster than the php completion
+    shipping with Vim, but has no argument info
+  * function and thing lookup using tags. Eg try :tjump array_diff<cr>
+
+
+== How to update it: ==
 I did the dump using elinks or such
 
 how to update it:
