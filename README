@@ -17,3 +17,8 @@ how to update it:
 3) apply a pattern like this:
     %s@^\s\+-\{10,}\n\n\s\+-\{10,}\n\n \{10,50}\(\S*\)@==================================\nthing: \1@g
 3) cd manual; makeTags.sh
+
+
+alternatives
+=============
+irc DanielConvissor: "pman" for use on the command line: "pear install doc.php.net/pman"
