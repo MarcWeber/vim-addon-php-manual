@@ -21,4 +21,10 @@ how to update it:
 
 alternatives
 =============
-irc DanielConvissor: "pman" for use on the command line: "pear install doc.php.net/pman"
+irc:
+< DanielConvissor> "pman" for use on the command line: "pear install doc.php.net/pman"
+< DanielConvissor> MarcWeber: fyi, the PhD package has a token/function list generator which you may be able to use for generating 
+your package.  or you could even build an extension class to PhD that builds
+your package for you and/or your users.
+
+Does somebody want to work on it?
