@@ -28,3 +28,6 @@ your package.  or you could even build an extension class to PhD that builds
 your package for you and/or your users.
 
 Does somebody want to work on it?
+
+Don't by shy and read this very accurate list about why PHP sucks:
+http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/
